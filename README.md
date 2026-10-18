@@ -101,6 +101,8 @@ python cli\chat.py        # Windows
 python -m cli.chat        # 跨平台
 ```
 
+CLI 支持两个环境变量：`AI_SERVICE_URL` 指定服务地址（默认 `http://127.0.0.1:8000`），`CLI_API_KEY` 指定鉴权 Key（默认取 `VALID_API_KEYS` 第一个值）。
+
 示例对话：
 
 ```
